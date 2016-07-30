@@ -1,0 +1,25 @@
+@font-face {
+  font-family: titulo;
+  src: url("./../fonts/larch.ttf"); }
+body {
+  text-align: center; }
+
+#navtext {
+  color: white;
+  font-family: titulo; }
+
+.title {
+  font-family: titulo; }
+
+#whoami {
+  color: white;
+  background: url("./../imagenes/fondo4.jpg") fixed;
+  width: 100%;
+  height: 100%;
+  padding: 7%;
+  margin-top: 70px; }
+
+.yo {
+  text-shadow: 2px 0 0 #7D12A1, -2px 0 0 #7D12A1, 0 2px 0 #7D12A1, 0 -2px 0 #7D12A1, 1px 1px #7D12A1, -1px -1px 0 #7D12A1, 1px -1px 0 #7D12A1, -1px 1px 0 #7D12A1; }
+
+/*# sourceMappingURL=estilo.css.map */
