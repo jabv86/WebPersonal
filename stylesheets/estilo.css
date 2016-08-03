@@ -2,7 +2,11 @@
   font-family: titulo;
   src: url("./../fonts/larch.ttf"); }
 body {
-  text-align: center; }
+  background: url("./../imagenes/fondo.jpg") fixed;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  color: white !important; }
 
 #navtext {
   color: white;
@@ -19,7 +23,29 @@ body {
   padding: 7%;
   margin-top: 70px; }
 
-.yo {
+.yo, a {
   text-shadow: 2px 0 0 #7D12A1, -2px 0 0 #7D12A1, 0 2px 0 #7D12A1, 0 -2px 0 #7D12A1, 1px 1px #7D12A1, -1px -1px 0 #7D12A1, 1px -1px 0 #7D12A1, -1px 1px 0 #7D12A1; }
+
+#proyectimg {
+  height: 450.433px; }
+
+footer {
+  background: #202324;
+  color: white;
+  font-family: titulo;
+  font-size: 22px;
+  padding: 10px; }
+
+A:link {
+  text-decoration: none;
+  color: white; }
+
+A:visited {
+  text-decoration: none;
+  color: #e5fa00; }
+
+A:active {
+  text-decoration: none;
+  color: #7D12A1; }
 
 /*# sourceMappingURL=estilo.css.map */
